@@ -1,6 +1,8 @@
 body {
   background: #f7f7f7;
   font-family: Verdana;
+  max-width: 900px;
+  margin: auto;
 }
 
 .photo {
@@ -17,7 +19,7 @@ body {
   text-transform: uppercase;
 }
 
-a{
+a {
   text-decoration: line-through;
   color: #505050;
 }
@@ -41,10 +43,12 @@ a{
   margin: 0;
   margin-bottom: 15px;
   text-transform: capitalize;
+  text-align: justify;
 }
 
 .postImage {
   margin-bottom: 15px;
+  width: 100%;
 }
 
 .contactsList {
